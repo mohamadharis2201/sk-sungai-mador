@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portal Digital Rasmi Sekolah Kebangsaan Sungai Mador">
+  <title>SK Sungai Mador | Portal Digital Rasmi</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- =========================================================
+       1. HEADER
+       EDIT: Nama sekolah boleh diubah di bawah.
+  ========================================================== -->
+  <header class="site-header">
+    <div class="container nav-wrap">
+
+      <a href="#utama" class="brand">
+        <img src="images/logo-sekolah.png"
+             alt="Logo SK Sungai Mador"
+             class="brand-logo"
+             onerror="this.style.visibility='hidden'">
+
+        <div>
+          <span class="brand-kicker">Portal Digital Rasmi</span>
+          <strong>SK Sungai Mador</strong>
+        </div>
+      </a>
+
+      <button class="menu-toggle"
+              aria-label="Buka menu"
+              onclick="document.body.classList.toggle('menu-open')">
+        ☰
+      </button>
+
+      <nav class="main-nav">
+        <a href="#utama">Utama</a>
+        <a href="#tentang">Tentang</a>
+        <a href="#pencapaian">Pencapaian</a>
+        <a href="#warga">Warga Sekolah</a>
+        <a href="#berita">Berita</a>
+        <a href="#galeri">Galeri</a>
+        <a href="#pautan">Pautan</a>
+        <a href="#hubungi">Hubungi</a>
+      </nav>
+    </div>
+  </header>
+
+
+  <main>
+
+    <!-- =========================================================
+         2. BANNER UTAMA
+         GAMBAR: images/banner-sekolah.jpg
+         EDIT: Tukar tajuk, slogan dan penerangan di bawah.
+    ========================================================== -->
+    <section id="utama" class="hero">
+      <div class="hero-overlay"></div>
+
+      <div class="container hero-content">
+        <span class="eyebrow">Sekolah Kebangsaan Sungai Mador</span>
+
+        <h1>Ilmu Membina Masa Depan</h1>
+
+        <p>
+          Selamat datang ke Portal Digital Rasmi SK Sungai Mador.
+          Pusat maklumat sekolah, perkhidmatan digital, aktiviti dan komunikasi bersama komuniti.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#tentang" class="btn btn-primary">Kenali Sekolah</a>
+          <a href="#pautan" class="btn btn-outline">Akses Sistem</a>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- =========================================================
+         3. KENALI SEKOLAH
+         Reka bentuk diinspirasikan oleh contoh yang diberi.
+         GAMBAR: images/gambar-sekolah.jpg
+    ========================================================== -->
+    <section id="tentang" class="section school-intro">
+      <div class="container">
+
+        <div class="section-heading">
+          <span class="section-tag">Tentang Kami</span>
+          <h2>Kenali SK Sungai Mador</h2>
+        </div>
+
+        <div class="school-profile-grid">
+
+          <!-- PROFIL SEKOLAH -->
+          <article class="profile-card">
+            <div class="profile-photo media-box">
+              <img src="images/gambar-sekolah.jpg"
+                   alt="Gambar SK Sungai Mador"
+                   onerror="imageFallback(this, 'Gambar sekolah')">
+            </div>
+
+            <div class="profile-body">
+              <span class="mini-tag">Profil sekolah</span>
+
+              <h3>Sekolah Kebangsaan Sungai Mador</h3>
+
+              <!-- EDIT: Tukar perenggan profil sekolah di sini -->
+              <p>
+                [PROFIL SEKOLAH] Masukkan pengenalan ringkas SK Sungai Mador di sini.
+                Contohnya lokasi sekolah, sejarah ringkas, komuniti setempat,
+                keunikan sekolah serta perkembangan sekolah dari semasa ke semasa.
+              </p>
+            </div>
+          </article>
+
+          <!-- VISI -->
+          <article class="info-card">
+            <span class="mini-tag">Visi</span>
+            <h3>Visi sekolah</h3>
+            <p>[VISI] Masukkan visi rasmi sekolah di sini.</p>
+          </article>
+
+          <!-- MISI -->
+          <article class="info-card">
+            <span class="mini-tag">Misi</span>
+            <h3>Misi sekolah</h3>
+            <p>[MISI] Masukkan misi rasmi sekolah di sini.</p>
+          </article>
+
+          <!-- MOTO -->
+          <article class="info-card">
+            <span class="mini-tag">Moto</span>
+            <h3>Moto sekolah</h3>
+            <p>[MOTO] Masukkan moto rasmi sekolah di sini.</p>
+          </article>
+
+          <!-- HALUAN / FOKUS -->
+          <article class="info-card">
+            <span class="mini-tag">Haluan</span>
+            <h3>Fokus sekolah</h3>
+            <p>
+              [HALUAN] Masukkan fokus atau hala tuju utama sekolah di sini.
+              Contohnya kecemerlangan akademik, sahsiah, PBD, kokurikulum atau transformasi digital.
+            </p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- =========================================================
+         4. KOMUNITI SEKOLAH / SKSM DALAM ANGKA
+         EDIT: Tukar angka di bawah ikut data sebenar.
+    ========================================================== -->
+    <section class="stats-section">
+      <div class="container">
+        <span class="stats-kicker">SKSM DALAM ANGKA</span>
+        <h2>Komuniti sekolah</h2>
+
+        <div class="stats-grid">
+
+          <article class="stat-item">
+            <strong>[00]</strong>
+            <span>Jumlah murid</span>
+          </article>
+
+          <article class="stat-item">
+            <strong>[00]</strong>
+            <span>Guru</span>
+          </article>
+
+          <article class="stat-item">
+            <strong>[00]</strong>
+            <span>Staf sokongan</span>
+          </article>
+
+          <article class="stat-item">
+            <strong>[00]</strong>
+            <span>Kelas</span>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- =========================================================
+         5. PENCAPAIAN SEKOLAH
+         GAMBAR:
+         images/pencapaian-1.jpg
+         images/pencapaian-2.jpg
+         images/pencapaian-3.jpg
+
+         Jika gambar belum diupload, kotak placeholder akan muncul.
+    ========================================================== -->
+    <section id="pencapaian" class="section">
+      <div class="container">
+
+        <div class="section-heading">
+          <span class="section-tag">Kecemerlangan</span>
+          <h2>Pencapaian Sekolah</h2>
+          <p>
+            Paparkan pencapaian akademik, kokurikulum, inovasi,
+            pengiktirafan guru atau kejayaan murid.
+          </p>
+        </div>
+
+        <div class="achievement-grid">
+
+          <!-- PENCAPAIAN 1 -->
+          <article class="achievement-card">
+            <div class="achievement-photo media-box">
+              <img src="images/pencapaian-1.jpg"
+                   alt="Pencapaian 1 SK Sungai Mador"
+                   onerror="imageFallback(this, 'pencapaian-1.jpg')">
+            </div>
+
+            <div class="achievement-body">
+              <span class="achievement-year">2026</span>
+              <h3>[Nama Pencapaian 1]</h3>
+              <p>
+                Masukkan peringkat pertandingan, nama program,
+                nama murid/guru atau penerangan ringkas pencapaian.
+              </p>
+            </div>
+          </article>
+
+          <!-- PENCAPAIAN 2 -->
+          <article class="achievement-card">
+            <div class="achievement-photo media-box">
+              <img src="images/pencapaian-2.jpg"
+                   alt="Pencapaian 2 SK Sungai Mador"
+                   onerror="imageFallback(this, 'pencapaian-2.jpg')">
+            </div>
+
+            <div class="achievement-body">
+              <span class="achievement-year">2026</span>
+              <h3>[Nama Pencapaian 2]</h3>
+              <p>
+                Masukkan pencapaian akademik, sukan, kokurikulum,
+                pertandingan atau pengiktirafan sekolah.
+              </p>
+            </div>
+          </article>
+
+          <!-- PENCAPAIAN 3 -->
+          <article class="achievement-card">
+            <div class="achievement-photo media-box">
+              <img src="images/pencapaian-3.jpg"
+                   alt="Pencapaian 3 SK Sungai Mador"
+                   onerror="imageFallback(this, 'pencapaian-3.jpg')">
+            </div>
+
+            <div class="achievement-body">
+              <span class="achievement-year">2026</span>
+              <h3>[Nama Pencapaian 3]</h3>
+              <p>
+                Masukkan pencapaian guru, staf, murid atau organisasi
+                yang ingin diketengahkan.
+              </p>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- =========================================================
+         6. GURU & STAF
+         GAMBAR: guru-1.jpg hingga guru-4.jpg
+    ========================================================== -->
+    <section id="warga" class="section section-dark">
+      <div class="container">
+
+        <div class="section-heading light">
+          <span class="section-tag">Warga Sekolah</span>
+          <h2>Guru & Staf</h2>
+          <p>Masukkan barisan pentadbir, guru dan anggota kumpulan pelaksana.</p>
+        </div>
+
+        <div class="people-grid">
+
+          <article class="person-card">
+            <div class="person-photo media-box dark-media">
+              <img src="images/guru-1.jpg"
+                   alt="Guru Besar"
+                   onerror="imageFallback(this, 'guru-1.jpg')">
+            </div>
+            <div>
+              <h3>[Nama Guru Besar]</h3>
+              <p>Guru Besar</p>
+            </div>
+          </article>
+
+          <article class="person-card">
+            <div class="person-photo media-box dark-media">
+              <img src="images/guru-2.jpg"
+                   alt="Penolong Kanan"
+                   onerror="imageFallback(this, 'guru-2.jpg')">
+            </div>
+            <div>
+              <h3>[Nama Penolong Kanan]</h3>
+              <p>Penolong Kanan</p>
+            </div>
+          </article>
+
+          <article class="person-card">
+            <div class="person-photo media-box dark-media">
+              <img src="images/guru-3.jpg"
+                   alt="Guru"
+                   onerror="imageFallback(this, 'guru-3.jpg')">
+            </div>
+            <div>
+              <h3>[Nama Guru]</h3>
+              <p>Guru Akademik</p>
+            </div>
+          </article>
+
+          <article class="person-card">
+            <div class="person-photo media-box dark-media">
+              <img src="images/guru-4.jpg"
+                   alt="Staf Sokongan"
+                   onerror="imageFallback(this, 'guru-4.jpg')">
+            </div>
+            <div>
+              <h3>[Nama Staf]</h3>
+              <p>Staf Sokongan</p>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- =========================================================
+         7. BERITA & AKTIVITI
+         GAMBAR: berita-1.jpg hingga berita-3.jpg
+    ========================================================== -->
+    <section id="berita" class="section">
+      <div class="container">
+
+        <div class="section-heading">
+          <span class="section-tag">Terkini</span>
+          <h2>Berita & Aktiviti Sekolah</h2>
+        </div>
+
+        <div class="news-grid">
+
+          <article class="news-card">
+            <div class="news-photo media-box">
+              <img src="images/berita-1.jpg"
+                   alt="Berita Sekolah 1"
+                   onerror="imageFallback(this, 'berita-1.jpg')">
+            </div>
+            <div class="news-body">
+              <span class="news-date">14 September 2026</span>
+              <h3>[Tajuk Berita Sekolah]</h3>
+              <p>Masukkan ringkasan berita atau aktiviti sekolah.</p>
+            </div>
+          </article>
+
+          <article class="news-card">
+            <div class="news-photo media-box">
+              <img src="images/berita-2.jpg"
+                   alt="Berita Sekolah 2"
+                   onerror="imageFallback(this, 'berita-2.jpg')">
+            </div>
+            <div class="news-body">
+              <span class="news-date">September 2026</span>
+              <h3>[Tajuk Aktiviti]</h3>
+              <p>Masukkan ringkasan program, kejohanan atau aktiviti murid.</p>
+            </div>
+          </article>
+
+          <article class="news-card">
+            <div class="news-photo media-box">
+              <img src="images/berita-3.jpg"
+                   alt="Berita Sekolah 3"
+                   onerror="imageFallback(this, 'berita-3.jpg')">
+            </div>
+            <div class="news-body">
+              <span class="news-date">September 2026</span>
+              <h3>[Pengumuman]</h3>
+              <p>Gunakan bahagian ini untuk berita atau makluman penting.</p>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- =========================================================
+         8. GALERI
+         GAMBAR: galeri-1.jpg hingga galeri-6.jpg
+    ========================================================== -->
+    <section id="galeri" class="section section-soft">
+      <div class="container">
+
+        <div class="section-heading">
+          <span class="section-tag">Galeri</span>
+          <h2>Galeri Sekolah</h2>
+          <p>Gantikan gambar mengikut nama fail yang disediakan.</p>
+        </div>
+
+        <div class="gallery-grid">
+
+          <div class="gallery-item media-box">
+            <img src="images/galeri-1.jpg" alt="Galeri 1"
+                 onerror="imageFallback(this, 'galeri-1.jpg')">
+          </div>
+
+          <div class="gallery-item media-box">
+            <img src="images/galeri-2.jpg" alt="Galeri 2"
+                 onerror="imageFallback(this, 'galeri-2.jpg')">
+          </div>
+
+          <div class="gallery-item media-box">
+            <img src="images/galeri-3.jpg" alt="Galeri 3"
+                 onerror="imageFallback(this, 'galeri-3.jpg')">
+          </div>
+
+          <div class="gallery-item media-box">
+            <img src="images/galeri-4.jpg" alt="Galeri 4"
+                 onerror="imageFallback(this, 'galeri-4.jpg')">
+          </div>
+
+          <div class="gallery-item media-box">
+            <img src="images/galeri-5.jpg" alt="Galeri 5"
+                 onerror="imageFallback(this, 'galeri-5.jpg')">
+          </div>
+
+          <div class="gallery-item media-box">
+            <img src="images/galeri-6.jpg" alt="Galeri 6"
+                 onerror="imageFallback(this, 'galeri-6.jpg')">
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- =========================================================
+         9. PAUTAN PANTAS
+         Kekal di kedudukan asal seperti diminta.
+    ========================================================== -->
+    <section id="pautan" class="section">
+      <div class="container">
+
+        <div class="section-heading">
+          <span class="section-tag">Perkhidmatan Digital</span>
+          <h2>Pautan Pantas</h2>
+          <p>Akses sistem rasmi KPM dan aplikasi dalaman sekolah.</p>
+        </div>
+
+        <div class="link-grid">
+
+          <a class="portal-link" target="_blank" rel="noopener"
+             href="https://idme.moe.gov.my/login">
+            <span>IDME</span>
+            <small>Identiti Digital KPM</small>
+          </a>
+
+          <a class="portal-link" target="_blank" rel="noopener"
+             href="https://d2.delima.edu.my/login">
+            <span>DELIMa</span>
+            <small>Pembelajaran Digital</small>
+          </a>
+
+          <a class="portal-link" target="_blank" rel="noopener"
+             href="https://hrmis2.eghrmis.gov.my">
+            <span>HRMIS</span>
+            <small>Pengurusan Sumber Manusia</small>
+          </a>
+
+          <a class="portal-link" target="_blank" rel="noopener"
+             href="https://appsjohor.moe.gov.my/rmt/">
+            <span>RMT</span>
+            <small>Rancangan Makanan Tambahan</small>
+          </a>
+
+          <a class="portal-link" target="_blank" rel="noopener"
+             href="https://sites.google.com/moe-dl.edu.my/sksgmador/laman-utama">
+            <span>Google Site</span>
+            <small>Laman Sekolah</small>
+          </a>
+
+          <a class="portal-link" target="_blank" rel="noopener"
+             href="https://script.google.com/a/macros/moe-dl.edu.my/s/AKfycbxFDushyc3wtZlwCMIzuDD5xYcBxgGyRZqy-LoTJmOSBbPrP6_NvCQIu9edofKY9pRFVg/exec">
+            <span>SPMM</span>
+            <small>Sistem Pengisian Markah</small>
+          </a>
+
+          <a class="portal-link" target="_blank" rel="noopener"
+             href="https://script.google.com/a/macros/moe-dl.edu.my/s/AKfycbw5z0M28bCq1qw0a5OeFudr87bK6qEX4evJpeS-ksZL5w63bi-lTjXIAd7rLTcWDpeG/exec">
+            <span>SPPM 2.0</span>
+            <small>Sistem PBD Pro Mador</small>
+          </a>
+
+          <a class="portal-link" target="_blank" rel="noopener"
+             href="https://script.google.com/a/macros/moe-dl.edu.my/s/AKfycbxRX8k-iS1_6jZtBpq4tT8Pd5qNLEhLoC7Vc3Avpt7mzC4h5TvASdmMS-bWJohLpey97A/exec">
+            <span>Pengurusan KK</span>
+            <small>Sistem Kokurikulum Sekolah</small>
+          </a>
+
+          <a class="portal-link" target="_blank" rel="noopener"
+             href="https://script.google.com/a/macros/moe-dl.edu.my/s/AKfycbzU6B9RNkqmRQFpKn8S-osbEN9Qtr5AufYwgUzwZIe7k15Yky7x0RSBgWx112B2xosX/exec">
+            <span>Sistem OPR</span>
+            <small>One Page Report</small>
+          </a>
+
+          <a class="portal-link" target="_blank" rel="noopener"
+             href="https://www.moe.gov.my/">
+            <span>Portal KPM</span>
+            <small>Kementerian Pendidikan Malaysia</small>
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- =========================================================
+         10. MAKLUM BALAS
+         Nota: Borang masih placeholder.
+    ========================================================== -->
+    <section class="section feedback-section">
+      <div class="container two-col">
+
+        <div>
+          <span class="section-tag">Komunikasi</span>
+          <h2>Aduan & Maklum Balas Ibu Bapa</h2>
+          <p>
+            Borang ini ialah template. Ia boleh disambungkan kepada Google Forms
+            atau Google Apps Script apabila diperlukan.
+          </p>
+        </div>
+
+        <form class="feedback-form" action="#" method="post">
+
+          <label>
+            Nama
+            <input type="text" name="nama" placeholder="Nama ibu bapa / penjaga">
+          </label>
+
+          <label>
+            Emel / No. Telefon
+            <input type="text" name="hubungan" placeholder="Contoh: 01X-XXXXXXX">
+          </label>
+
+          <label>
+            Kategori
+            <select name="kategori">
+              <option>Maklum Balas</option>
+              <option>Aduan</option>
+              <option>Cadangan</option>
+              <option>Pertanyaan</option>
+            </select>
+          </label>
+
+          <label>
+            Mesej
+            <textarea name="mesej" rows="5" placeholder="Tulis mesej di sini..."></textarea>
+          </label>
+
+          <button type="submit" class="btn btn-primary">Hantar Maklum Balas</button>
+
+        </form>
+      </div>
+    </section>
+
+
+    <!-- =========================================================
+         11. HUBUNGI
+    ========================================================== -->
+    <section id="hubungi" class="section contact-section">
+      <div class="container contact-grid">
+
+        <div>
+          <span class="section-tag">Hubungi Kami</span>
+          <h2>Maklumat Perhubungan</h2>
+
+          <p><strong>SK Sungai Mador</strong></p>
+
+          <!-- EDIT maklumat sekolah di bawah -->
+          <p>[ALAMAT PENUH SEKOLAH]</p>
+          <p>Telefon: [NO. TELEFON]</p>
+          <p>Emel: [EMEL SEKOLAH]</p>
+        </div>
+
+        <div class="map-placeholder">
+          <div>
+            <strong>Google Maps / Peta Lokasi</strong>
+            <small>Gantikan ruangan ini dengan embed Google Maps apabila sedia.</small>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- =========================================================
+       12. FOOTER
+  ========================================================== -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <strong>SK Sungai Mador</strong>
+        <p>Portal Digital Rasmi Sekolah</p>
+      </div>
+
+      <div>
+        <p>© 2026 SK Sungai Mador. Hak cipta terpelihara.</p>
+        <p>Dibangunkan untuk kegunaan komuniti sekolah.</p>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--
+    Skrip kecil ini hanya untuk memaparkan placeholder yang kemas
+    apabila gambar belum diupload ke GitHub.
+  -->
+  <script>
+    function imageFallback(img, fileName) {
+      const box = img.parentElement;
+      img.style.display = "none";
+      box.classList.add("missing-image");
+      box.setAttribute("data-file", fileName);
+    }
+  </script>
+
+</body>
+</html>
